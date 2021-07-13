@@ -3,7 +3,7 @@ exports.__esModule = true;
 var fs_1 = require("fs");
 try {
     var dict = {};
-    var file = fs_1.readFileSync("C:\\Users\\qsk55\\Documents\\code\\idk\\src\\hello.txt", "utf8");
+    var file = fs_1.readFileSync("hello.txt", "utf8");
     var lines = file.replace("\r", "").split("\n");
     var newLines = [];
     for (var _i = 0, lines_1 = lines; _i < lines_1.length; _i++) {
